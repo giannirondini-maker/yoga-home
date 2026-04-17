@@ -1,0 +1,1383 @@
+[
+  {
+    "id": "yoga-01",
+    "name_it": "Posa del Bambino",
+    "name_en": "Child's Pose",
+    "category": "yoga",
+    "difficulty": 1,
+    "phase": "cooldown",
+    "duration_sec": 60,
+    "equipment": [
+      "tappetino"
+    ],
+    "benefit_it": "Rilascio completo del corpo, allevia il mal di schiena e le tensioni",
+    "modification_it": "Eseguire seduta su una sedia, piegandosi in avanti con le braccia appoggiate alle ginocchia",
+    "safety_it": "",
+    "youtube_query": "child's pose for seniors yoga beginners",
+    "tags": [
+      "schiena",
+      "fianchi",
+      "rilassamento",
+      "respiro"
+    ],
+    "image": "assets/visuals/yoga-01.png",
+    "description_it": "Inginocchiarsi sul tappetino, sedersi sui talloni e allungare le braccia in avanti abbassando la fronte a terra. Respirare profondamente, espandendo il petto e la schiena a ogni inspirazione. Mantenere la posizione da 30 secondi a 2 minuti."
+  },
+  {
+    "id": "yoga-02",
+    "name_it": "Gatto-Mucca",
+    "name_en": "Cat-Cow Stretch",
+    "category": "yoga",
+    "difficulty": 1,
+    "phase": "warmup",
+    "duration_sec": 60,
+    "equipment": [
+      "tappetino"
+    ],
+    "benefit_it": "Flessibilità della colonna vertebrale, riscaldamento della schiena",
+    "modification_it": "Eseguire seduta: arrotondare e inarchare la schiena superiore sulla sedia",
+    "safety_it": "",
+    "youtube_query": "cat cow stretch for seniors seated",
+    "tags": [
+      "schiena",
+      "colonna",
+      "mobilità",
+      "riscaldamento"
+    ],
+    "image": "assets/visuals/yoga-02.png",
+    "description_it": "Posizionarsi a quattro zampe sul tappetino, polsi sotto le spalle e ginocchia sotto i fianchi. Inspirando, inarchare la schiena verso il basso e alzare la testa (Mucca). Espirando, arrotondare la schiena verso l'alto e abbassare il mento al petto (Gatto). Ripetere 8-10 volte lentamente."
+  },
+  {
+    "id": "yoga-03",
+    "name_it": "Montagna",
+    "name_en": "Mountain Pose",
+    "category": "yoga",
+    "difficulty": 1,
+    "phase": "warmup",
+    "duration_sec": 45,
+    "equipment": [],
+    "benefit_it": "Migliora la postura, la consapevolezza corporea e l'ancoraggio",
+    "modification_it": "Restare vicino a una sedia per il supporto all'equilibrio",
+    "safety_it": "",
+    "youtube_query": "mountain pose tadasana seniors beginners",
+    "tags": [
+      "postura",
+      "equilibrio",
+      "respiro",
+      "ancoraggio"
+    ],
+    "image": "assets/visuals/yoga-03.png",
+    "description_it": "Stare in piedi con i piedi alla larghezza dei fianchi, braccia lungo i fianchi, palmi rivolti in avanti. Distribuire il peso uniformemente su entrambi i piedi. Allungare la colonna verso l'alto, rilassare le spalle e respirare profondamente per 5-10 respiri consapevoli."
+  },
+  {
+    "id": "yoga-04",
+    "name_it": "Piegamento in Avanti da Seduti",
+    "name_en": "Seated Forward Fold",
+    "category": "yoga",
+    "difficulty": 1,
+    "phase": "yoga_active",
+    "duration_sec": 60,
+    "equipment": [
+      "sedia"
+    ],
+    "benefit_it": "Allungamento dei muscoli posteriori della coscia, calma il sistema nervoso",
+    "modification_it": "Piegare le ginocchia quanto necessario; posizionare le mani sulle cosce anziché sui piedi",
+    "safety_it": "",
+    "youtube_query": "seated forward fold chair yoga seniors",
+    "tags": [
+      "gambe",
+      "schiena",
+      "stiramento",
+      "rilassamento"
+    ],
+    "image": "assets/visuals/yoga-04.png",
+    "description_it": "Sedere sul bordo della sedia con le gambe allungate davanti a sé (piedi a terra). Inspirare allungando la schiena, poi espirare e inclinarsi in avanti dalle anche, tenendo la schiena dritta. Portare le mani verso i piedi o le caviglie. Mantenere per 30-60 secondi respirando dolcemente."
+  },
+  {
+    "id": "yoga-05",
+    "name_it": "Torsione Spinale da Seduti",
+    "name_en": "Seated Spinal Twist",
+    "category": "yoga",
+    "difficulty": 1,
+    "phase": "yoga_active",
+    "duration_sec": 60,
+    "equipment": [
+      "sedia"
+    ],
+    "benefit_it": "Stimola la digestione, aumenta il metabolismo, migliora la mobilità della colonna",
+    "modification_it": "Mantenere entrambi i piedi ben appoggiati a terra durante la torsione",
+    "safety_it": "",
+    "youtube_query": "seated spinal twist chair yoga seniors",
+    "tags": [
+      "colonna",
+      "digestione",
+      "metabolismo",
+      "fianchi"
+    ],
+    "image": "assets/visuals/yoga-05.png",
+    "description_it": "Sedere eretti sulla sedia. Posizionare la mano destra sul ginocchio sinistro e ruotare il busto verso sinistra, guardando sopra la spalla sinistra. Mantenere per 30 secondi respirando. Tornare al centro ed eseguire il lato opposto. Ripetere 2 volte per lato."
+  },
+  {
+    "id": "yoga-06",
+    "name_it": "Guerriero I (con Sedia)",
+    "name_en": "Warrior I (Chair-Supported)",
+    "category": "yoga",
+    "difficulty": 2,
+    "phase": "yoga_active",
+    "duration_sec": 60,
+    "equipment": [
+      "sedia"
+    ],
+    "benefit_it": "Rinforza cosce, quadricipiti e flessori dell'anca; migliora l'equilibrio",
+    "modification_it": "Tenere il dorso della sedia con una mano per il supporto all'equilibrio",
+    "safety_it": "Evitare se si hanno problemi alle ginocchia o alle anche; non scendere oltre il livello del comfort",
+    "youtube_query": "warrior 1 pose chair yoga seniors",
+    "tags": [
+      "gambe",
+      "forza",
+      "equilibrio",
+      "fianchi"
+    ],
+    "image": "assets/visuals/yoga-06.png",
+    "description_it": "Posizionarsi in affondo con il piede destro davanti e il sinistro indietro (piede girato a 45°). Tenere la sedia per supporto. Piegare il ginocchio anteriore a 90° e alzare entrambe le braccia verso l'alto. Mantenere per 30 secondi, poi cambiare lato."
+  },
+  {
+    "id": "yoga-07",
+    "name_it": "Guerriero II (con Sedia)",
+    "name_en": "Warrior II (Chair-Supported)",
+    "category": "yoga",
+    "difficulty": 2,
+    "phase": "yoga_active",
+    "duration_sec": 60,
+    "equipment": [
+      "sedia"
+    ],
+    "benefit_it": "Rinforza quadricipiti, glutei e fianchi; sviluppa la concentrazione",
+    "modification_it": "Tenere la sedia vicina per il supporto; ridurre la larghezza del passo se necessario",
+    "safety_it": "",
+    "youtube_query": "warrior 2 pose chair yoga seniors",
+    "tags": [
+      "gambe",
+      "forza",
+      "equilibrio",
+      "concentrazione"
+    ],
+    "image": "assets/visuals/yoga-07.png",
+    "description_it": "In piedi con i piedi ben separati (circa 90-120 cm). Ruotare il piede destro di 90° verso destra. Piegare il ginocchio destro sopra la caviglia. Allargare le braccia orizzontalmente, guardando sopra la mano destra. Mantenere per 30 secondi per lato."
+  },
+  {
+    "id": "yoga-08",
+    "name_it": "Posizione dell'Albero",
+    "name_en": "Tree Pose",
+    "category": "yoga",
+    "difficulty": 2,
+    "phase": "yoga_active",
+    "duration_sec": 45,
+    "equipment": [
+      "sedia"
+    ],
+    "benefit_it": "Migliora l'equilibrio, la forza delle caviglie e la coordinazione",
+    "modification_it": "Tenere la sedia con una mano; poggiare il piede sul polpaccio anziché sulla coscia",
+    "safety_it": "Non appoggiare il piede sul ginocchio; usare sempre il supporto se l'equilibrio è precario",
+    "youtube_query": "tree pose balance yoga seniors beginners",
+    "tags": [
+      "equilibrio",
+      "caviglie",
+      "coordinazione",
+      "forza"
+    ],
+    "image": "assets/visuals/yoga-08.png",
+    "description_it": "Stare in piedi vicino alla sedia. Con la mano sulla sedia per supporto, sollevare il piede destro e appoggiatelo sul polpaccio sinistro (mai sul ginocchio). Portare le mani al cuore. Mantenere per 20-30 secondi, poi cambiare lato."
+  },
+  {
+    "id": "yoga-09",
+    "name_it": "Ponte",
+    "name_en": "Bridge Pose",
+    "category": "yoga",
+    "difficulty": 2,
+    "phase": "yoga_active",
+    "duration_sec": 60,
+    "equipment": [
+      "tappetino"
+    ],
+    "benefit_it": "Rinforza glutei, schiena inferiore e muscoli posteriori della coscia",
+    "modification_it": "Sollevare i fianchi solo quanto è comodo; usare un cuscino sotto la testa se necessario",
+    "safety_it": "Evitare se si ha dolore alla schiena bassa; non ruotare la testa durante l'esecuzione",
+    "youtube_query": "bridge pose yoga seniors beginners floor",
+    "tags": [
+      "glutei",
+      "schiena",
+      "fianchi",
+      "forza"
+    ],
+    "image": "assets/visuals/yoga-09.png",
+    "description_it": "Sdraiarsi sulla schiena con le ginocchia piegate e i piedi a terra, larghezza dei fianchi. Inspirare e sollevare i fianchi verso il soffitto stringendo i glutei. Mantenere per 5-10 secondi. Scendere lentamente espirando. Ripetere 8-10 volte."
+  },
+  {
+    "id": "yoga-10",
+    "name_it": "Gambe al Muro",
+    "name_en": "Legs-Up-The-Wall",
+    "category": "yoga",
+    "difficulty": 1,
+    "phase": "cooldown",
+    "duration_sec": 180,
+    "equipment": [
+      "tappetino"
+    ],
+    "benefit_it": "Migliora la circolazione, riduce il gonfiore alle caviglie, profondo rilassamento",
+    "modification_it": "Usare una coperta piegata sotto i fianchi per maggiore comfort",
+    "safety_it": "Evitare se si ha glaucoma o pressione alta non controllata",
+    "youtube_query": "legs up the wall pose seniors relaxation",
+    "tags": [
+      "circolazione",
+      "caviglie",
+      "rilassamento",
+      "recupero"
+    ],
+    "image": "assets/visuals/yoga-10.png",
+    "description_it": "Sedersi lateralmente vicino a un muro, poi sdraiarsi portando le gambe su per il muro. I fianchi devono essere il più vicino possibile al muro. Braccia rilassate ai lati, palmi verso l'alto. Rimanere in questa posizione da 3 a 5 minuti respirando lentamente."
+  },
+  {
+    "id": "yoga-11",
+    "name_it": "Rotazione del Collo da Seduti",
+    "name_en": "Seated Neck Rolls",
+    "category": "yoga",
+    "difficulty": 1,
+    "phase": "warmup",
+    "duration_sec": 45,
+    "equipment": [
+      "sedia"
+    ],
+    "benefit_it": "Libera le tensioni al collo e alle spalle, migliora la postura",
+    "modification_it": "In caso di dolore al collo, eseguire solo inclinazioni laterali lente senza rotazioni complete",
+    "safety_it": "Movimenti lenti e controllati; non forzare mai l'ampiezza del movimento",
+    "youtube_query": "neck rolls seated yoga seniors gentle",
+    "tags": [
+      "collo",
+      "spalle",
+      "tensione",
+      "riscaldamento"
+    ],
+    "image": "assets/visuals/yoga-11.png",
+    "description_it": "Sedere eretti. Abbassare il mento al petto, poi ruotare lentamente la testa verso destra, verso l'indietro (senza iperestendere) e verso sinistra, completando un cerchio completo. Eseguire 3 cerchi in senso orario e 3 in senso antiorario, respirando in modo continuo e rilassato."
+  },
+  {
+    "id": "yoga-12",
+    "name_it": "Posizione della Farfalla",
+    "name_en": "Butterfly Pose (Bound Angle)",
+    "category": "yoga",
+    "difficulty": 1,
+    "phase": "cooldown",
+    "duration_sec": 60,
+    "equipment": [
+      "tappetino"
+    ],
+    "benefit_it": "Allungamento dell'interno coscia, apertura delle anche, miglioramento della flessibilità",
+    "modification_it": "Sedersi su una coperta piegata per ridurre il carico sulla schiena bassa; non forzare le ginocchia verso il basso",
+    "safety_it": "",
+    "youtube_query": "butterfly pose bound angle yoga seniors floor",
+    "tags": [
+      "fianchi",
+      "interno coscia",
+      "flessibilità",
+      "apertura"
+    ],
+    "image": "assets/visuals/yoga-12.png",
+    "description_it": "Sedere sul tappetino con le piante dei piedi unite e le ginocchia che cadono verso l'esterno. Tenere le caviglie con le mani e allungare la schiena verso l'alto. Respirare profondamente, lasciando che i fianchi si aprano naturalmente ad ogni espirazione. Mantenere da 30 a 60 secondi."
+  },
+  {
+    "id": "yoga-13",
+    "name_it": "Ginocchia al Petto (Supina)",
+    "name_en": "Supine Knee-to-Chest",
+    "category": "yoga",
+    "difficulty": 1,
+    "phase": "cooldown",
+    "duration_sec": 45,
+    "equipment": [
+      "tappetino"
+    ],
+    "benefit_it": "Rilascia la schiena bassa, allungamento dei flessori dell'anca",
+    "modification_it": "Portare un ginocchio alla volta se entrambe le gambe insieme risulta scomodo",
+    "safety_it": "",
+    "youtube_query": "knees to chest supine yoga seniors lower back",
+    "tags": [
+      "schiena",
+      "fianchi",
+      "rilassamento",
+      "flessori"
+    ],
+    "image": "assets/visuals/yoga-13.png",
+    "description_it": "Sdraiarsi sulla schiena. Portare entrambe le ginocchia al petto abbracciandole delicatamente con le braccia. Dondolarsi dolcemente da un lato all'altro per massaggiare la schiena. Mantenere la posizione per 30 secondi respirando in modo rilassato."
+  },
+  {
+    "id": "yoga-14",
+    "name_it": "Torsione Spinale Supina",
+    "name_en": "Supine Spinal Twist",
+    "category": "yoga",
+    "difficulty": 1,
+    "phase": "cooldown",
+    "duration_sec": 60,
+    "equipment": [
+      "tappetino"
+    ],
+    "benefit_it": "Rotazione spinale, rilascio del fascio ileotibiale, decompressione della schiena",
+    "modification_it": "Mantenere entrambe le spalle a terra; ridurre la torsione se c'è disagio",
+    "safety_it": "",
+    "youtube_query": "supine spinal twist yoga seniors floor",
+    "tags": [
+      "colonna",
+      "torsione",
+      "schiena",
+      "rilassamento"
+    ],
+    "image": "assets/visuals/yoga-14.png",
+    "description_it": "Sdraiarsi sulla schiena. Portare il ginocchio destro al petto, poi farlo cadere verso sinistra guardando a destra con il braccio destro allungato. Mantenere per 30 secondi. Tornare al centro e ripetere sull'altro lato. Le spalle restano a contatto con il tappetino."
+  },
+  {
+    "id": "yoga-15",
+    "name_it": "Cobra",
+    "name_en": "Cobra Pose",
+    "category": "yoga",
+    "difficulty": 2,
+    "phase": "yoga_active",
+    "duration_sec": 45,
+    "equipment": [
+      "tappetino"
+    ],
+    "benefit_it": "Rinforza la schiena, apre il petto, contrasta la postura curva da seduti",
+    "modification_it": "Tenere i gomiti piegati (cobra basso) se c'è disagio alla schiena bassa",
+    "safety_it": "Evitare se si ha un'ernia del disco o dolore acuto alla schiena",
+    "youtube_query": "cobra pose yoga seniors low cobra beginners",
+    "tags": [
+      "schiena",
+      "petto",
+      "postura",
+      "forza"
+    ],
+    "image": "assets/visuals/yoga-15.png",
+    "description_it": "Sdraiarsi a pancia in giù con le mani sotto le spalle. Inspirare e spingere lentamente il petto verso l'alto, mantenendo i gomiti leggermente piegati. Il basso ventre resta a contatto con il tappetino. Mantenere per 15-30 secondi, poi scendere lentamente."
+  },
+  {
+    "id": "yoga-16",
+    "name_it": "Allungamento Laterale in Piedi",
+    "name_en": "Standing Side Stretch",
+    "category": "yoga",
+    "difficulty": 1,
+    "phase": "warmup",
+    "duration_sec": 45,
+    "equipment": [],
+    "benefit_it": "Allungamento laterale della colonna, apertura della gabbia toracica",
+    "modification_it": "Eseguire seduta su una sedia, alzando un braccio alla volta",
+    "safety_it": "",
+    "youtube_query": "standing side stretch yoga seniors chair",
+    "tags": [
+      "colonna",
+      "coste",
+      "respirazione",
+      "mobilità"
+    ],
+    "image": "assets/visuals/yoga-16.png",
+    "description_it": "In piedi (o seduta), alzare il braccio destro sopra la testa e inclinarsi lentamente verso sinistra. Sentire l'allungamento su tutto il lato destro del corpo. Mantenere per 20 secondi respirando nell'allungamento. Tornare al centro e ripetere sull'altro lato."
+  },
+  {
+    "id": "yoga-17",
+    "name_it": "Piccione sulla Sedia",
+    "name_en": "Chair Pigeon",
+    "category": "yoga",
+    "difficulty": 2,
+    "phase": "yoga_active",
+    "duration_sec": 90,
+    "equipment": [
+      "sedia"
+    ],
+    "benefit_it": "Allungamento profondo dei glutei e del piriforme, mobilità dell'anca",
+    "modification_it": "Non forzare il ginocchio verso il basso; fermarsi alla prima sensazione di allungamento",
+    "safety_it": "Interrompere se si sente dolore al ginocchio; non eseguire in caso di problemi all'anca",
+    "youtube_query": "chair pigeon pose yoga seniors hip stretch",
+    "tags": [
+      "glutei",
+      "fianchi",
+      "piriforme",
+      "flessibilità"
+    ],
+    "image": "assets/visuals/yoga-17.png",
+    "description_it": "Sedere su una sedia. Incrociare la caviglia destra sopra il ginocchio sinistro e flettere il piede destro. Mantenere la schiena dritta e inclinarsi leggermente in avanti per sentire lo stiramento nel gluteo destro. Mantenere per 45 secondi per lato, respirando profondamente."
+  },
+  {
+    "id": "yoga-18",
+    "name_it": "Cane a Testa in Giù (Modificato)",
+    "name_en": "Downward Dog (Modified)",
+    "category": "yoga",
+    "difficulty": 2,
+    "phase": "yoga_active",
+    "duration_sec": 45,
+    "equipment": [
+      "sedia"
+    ],
+    "benefit_it": "Allungamento di muscoli posteriori delle cosce, polpacci e spalle",
+    "modification_it": "Piegare le ginocchia generosamente; ridurre l'angolo se c'è tensione alle spalle",
+    "safety_it": "",
+    "youtube_query": "modified downward dog chair wall yoga seniors",
+    "tags": [
+      "gambe",
+      "spalle",
+      "schiena",
+      "stiramento"
+    ],
+    "image": "assets/visuals/yoga-18.png",
+    "description_it": "Posizionarsi di fronte a una sedia (o a un muro). Appogiare le mani allo schienale della sedia e camminare all'indietro finché il busto e le braccia formano una L rovesciata. Tenere la schiena dritta e spingere i fianchi verso l'alto. Mantenere per 30 secondi respirando lentamente."
+  },
+  {
+    "id": "yoga-19",
+    "name_it": "Affondo Basso (con Sedia)",
+    "name_en": "Low Lunge (Chair-Supported)",
+    "category": "yoga",
+    "difficulty": 2,
+    "phase": "yoga_active",
+    "duration_sec": 60,
+    "equipment": [
+      "sedia",
+      "tappetino"
+    ],
+    "benefit_it": "Allungamento dei flessori dell'anca, rinforzo dei quadricipiti",
+    "modification_it": "Poggiare le mani sulla sedia per il supporto; non scendere oltre il livello del comfort",
+    "safety_it": "Evitare se si ha dolore al ginocchio; poggiare un cuscino sotto il ginocchio posteriore",
+    "youtube_query": "low lunge chair supported yoga seniors hip flexor",
+    "tags": [
+      "fianchi",
+      "quadricipiti",
+      "forza",
+      "allungamento"
+    ],
+    "image": "assets/visuals/yoga-19.png",
+    "description_it": "Posizionarsi con il piede destro avanti, il ginocchio sinistro a terra sul tappetino. Tenere la sedia per supporto. Spingere i fianchi leggermente in avanti sentendo l'allungamento nella parte anteriore del fianco sinistro. Mantenere per 30 secondi per lato."
+  },
+  {
+    "id": "yoga-20",
+    "name_it": "Savasana (Posa del Cadavere)",
+    "name_en": "Savasana (Corpse Pose)",
+    "category": "yoga",
+    "difficulty": 1,
+    "phase": "cooldown",
+    "duration_sec": 300,
+    "equipment": [
+      "tappetino"
+    ],
+    "benefit_it": "Integrazione corporea completa, reset del sistema nervoso, rilassamento profondo",
+    "modification_it": "Usare una coperta arrotolata sotto le ginocchia se la schiena bassa è scomoda",
+    "safety_it": "",
+    "youtube_query": "savasana relaxation yoga seniors guided",
+    "tags": [
+      "rilassamento",
+      "integrazione",
+      "respiro",
+      "benessere"
+    ],
+    "image": "assets/visuals/yoga-20.png",
+    "description_it": "Sdraiarsi sulla schiena con le braccia leggermente distanziate dal corpo, palmi verso l'alto. Le gambe si aprono naturalmente. Chiudere gli occhi e lasciare che il corpo si rilassi completamente, punto per punto, dalla testa ai piedi. Rimanere in questa posizione per 3-5 minuti, respirando in modo naturale."
+  },
+  {
+    "id": "taichi-01",
+    "name_it": "Forma Iniziale",
+    "name_en": "Commencing Form",
+    "category": "taichi",
+    "difficulty": 1,
+    "phase": "warmup",
+    "duration_sec": 60,
+    "equipment": [],
+    "benefit_it": "Centratura, consapevolezza del respiro, postura eretta",
+    "modification_it": "Eseguire seduta se in piedi risulta faticoso",
+    "safety_it": "",
+    "youtube_query": "tai chi commencing form beginners seniors Yang style",
+    "tags": [
+      "respiro",
+      "postura",
+      "centratura",
+      "calma"
+    ],
+    "image": "assets/visuals/taichi-01.png",
+    "description_it": "Stare in piedi con i piedi alla larghezza delle spalle. Inspirando, sollevare lentamente entrambe le braccia fino all'altezza delle spalle, palmi verso il basso. Espirando, abbassarle lentamente. Ripetere 8 volte, sincronizzando il movimento con il respiro."
+  },
+  {
+    "id": "taichi-02",
+    "name_it": "Rotazioni delle Spalle",
+    "name_en": "Shoulder Rolls",
+    "category": "taichi",
+    "difficulty": 1,
+    "phase": "warmup",
+    "duration_sec": 45,
+    "equipment": [],
+    "benefit_it": "Libera le tensioni al collo e alle spalle, riscalda la parte superiore del corpo",
+    "modification_it": "Ridurre l'ampiezza del movimento se c'è dolore alla spalla",
+    "safety_it": "",
+    "youtube_query": "shoulder rolls warm up tai chi seniors",
+    "tags": [
+      "spalle",
+      "collo",
+      "riscaldamento",
+      "mobilità"
+    ],
+    "image": "assets/visuals/taichi-02.png",
+    "description_it": "In piedi o seduta, ruotare lentamente entrambe le spalle all'indietro 8 volte, disegnando cerchi ampi. Poi ripetere in avanti 8 volte. Inspirare durante la rotazione verso l'alto, espirare verso il basso. Mantenere il ritmo lento e fluido."
+  },
+  {
+    "id": "taichi-03",
+    "name_it": "Spostamento del Peso",
+    "name_en": "Weight Shifting",
+    "category": "taichi",
+    "difficulty": 1,
+    "phase": "warmup",
+    "duration_sec": 60,
+    "equipment": [],
+    "benefit_it": "Allenamento dell'equilibrio, mobilità dell'anca",
+    "modification_it": "Eseguire vicino a una sedia o a una parete per sicurezza",
+    "safety_it": "",
+    "youtube_query": "tai chi weight shifting balance seniors beginners",
+    "tags": [
+      "equilibrio",
+      "fianchi",
+      "mobilità",
+      "riscaldamento"
+    ],
+    "image": "assets/visuals/taichi-03.png",
+    "description_it": "In piedi con i piedi alla larghezza delle spalle, ginocchia leggermente piegate. Spostare lentamente il peso sul piede destro, poi sul sinistro, in un dondolio ritmico. Le braccia oscillano dolcemente con il movimento. Continuare per 1 minuto, respirando in modo naturale."
+  },
+  {
+    "id": "taichi-04",
+    "name_it": "Separare la Criniera del Cavallo Selvatico",
+    "name_en": "Parting the Wild Horse's Mane",
+    "category": "taichi",
+    "difficulty": 2,
+    "phase": "taichi",
+    "duration_sec": 90,
+    "equipment": [],
+    "benefit_it": "Coordinazione corpo-mente, forza delle gambe, fluidità del movimento",
+    "modification_it": "Ridurre l'ampiezza del passo; usare la sedia come supporto per l'equilibrio",
+    "safety_it": "",
+    "youtube_query": "parting wild horse mane tai chi beginners seniors",
+    "tags": [
+      "coordinazione",
+      "gambe",
+      "fluidità",
+      "forza"
+    ],
+    "image": "assets/visuals/taichi-04.png",
+    "description_it": "Fare un passo avanti con il piede destro. Simultaneamente, il braccio destro sale e si apre verso l'esterno mentre il sinistro scende. Come se si separasse una criniera. Alternare i lati lentamente, 8 volte per parte. Mantenere le ginocchia morbide e il movimento fluido."
+  },
+  {
+    "id": "taichi-05",
+    "name_it": "Spazzare il Ginocchio e Spingere",
+    "name_en": "Brush Knee and Push",
+    "category": "taichi",
+    "difficulty": 2,
+    "phase": "taichi",
+    "duration_sec": 90,
+    "equipment": [],
+    "benefit_it": "Coinvolge il core, rotazione dell'anca, coordinazione",
+    "modification_it": "Eseguire il movimento delle braccia da seduti senza il passo",
+    "safety_it": "",
+    "youtube_query": "brush knee push tai chi beginners seniors Yang",
+    "tags": [
+      "core",
+      "fianchi",
+      "coordinazione",
+      "gambe"
+    ],
+    "image": "assets/visuals/taichi-05.png",
+    "description_it": "Fare un passo avanti con il piede sinistro. La mano destra spinge in avanti all'altezza del petto, mentre la sinistra spazza verso il basso passando vicino al ginocchio sinistro. Alternare i lati per 8 ripetizioni. Sincronizzare il movimento delle braccia con il passo."
+  },
+  {
+    "id": "taichi-06",
+    "name_it": "Mani Nuvola",
+    "name_en": "Cloud Hands",
+    "category": "taichi",
+    "difficulty": 2,
+    "phase": "taichi",
+    "duration_sec": 90,
+    "equipment": [],
+    "benefit_it": "Rotazione della vita, coordinazione, equilibrio dinamico",
+    "modification_it": "Eseguire solo il movimento delle braccia da seduti",
+    "safety_it": "",
+    "youtube_query": "cloud hands tai chi seniors Yang style",
+    "tags": [
+      "vita",
+      "coordinazione",
+      "equilibrio",
+      "fluidità"
+    ],
+    "image": "assets/visuals/taichi-06.png",
+    "description_it": "In piedi con i piedi paralleli. Spostare il peso sul piede destro mentre le mani compiono un movimento circolare davanti al corpo, come se si accarezzassero le nuvole. La mano destra sale mentre la sinistra scende, poi si invertono. Continuare per 8-10 ripetizioni, spostandosi lateralmente di un piccolo passo."
+  },
+  {
+    "id": "taichi-07",
+    "name_it": "Respingere la Scimmia",
+    "name_en": "Repulse Monkey",
+    "category": "taichi",
+    "difficulty": 2,
+    "phase": "taichi",
+    "duration_sec": 90,
+    "equipment": [],
+    "benefit_it": "Mobilità all'indietro, stabilità del core, coordinazione",
+    "modification_it": "Fare piccoli passi indietro; usare la sedia per supporto se necessario",
+    "safety_it": "Assicurarsi di avere spazio libero dietro di sé prima di iniziare",
+    "youtube_query": "repulse monkey tai chi beginners seniors step back",
+    "tags": [
+      "equilibrio",
+      "core",
+      "coordinazione",
+      "mobilità"
+    ],
+    "image": "assets/visuals/taichi-07.png",
+    "description_it": "Fare un passo indietro con il piede sinistro mentre la mano destra spinge in avanti e la sinistra si ritrae al fianco. Poi alternare: passo indietro con il destro, spinta della mano sinistra. Eseguire 8 ripetizioni per lato, con movimenti lenti e fluidi."
+  },
+  {
+    "id": "taichi-08",
+    "name_it": "Mani Ondeggianti (Seduta)",
+    "name_en": "Waving Hands Like Clouds (Seated)",
+    "category": "taichi",
+    "difficulty": 1,
+    "phase": "taichi",
+    "duration_sec": 60,
+    "equipment": [
+      "sedia"
+    ],
+    "benefit_it": "Mobilità delle braccia e delle spalle, riduzione dello stress",
+    "modification_it": "Variante seduta — ideale per chi ha difficoltà con l'equilibrio",
+    "safety_it": "",
+    "youtube_query": "waving hands clouds tai chi seated seniors",
+    "tags": [
+      "spalle",
+      "stress",
+      "mobilità",
+      "rilassamento"
+    ],
+    "image": "assets/visuals/taichi-08.png",
+    "description_it": "Sedere su una sedia. Muovere lentamente entrambe le braccia in cerchi orizzontali davanti al corpo, come se si accarezzassero le nuvole. Lasciare che il busto si giri leggermente seguendo il movimento delle braccia. Continuare per 1 minuto in modo fluido e rilassato."
+  },
+  {
+    "id": "taichi-09",
+    "name_it": "Gallo d'Oro su Una Zampa",
+    "name_en": "Golden Rooster Stands on One Leg",
+    "category": "taichi",
+    "difficulty": 2,
+    "phase": "taichi",
+    "duration_sec": 60,
+    "equipment": [
+      "sedia"
+    ],
+    "benefit_it": "Equilibrio, forza delle gambe, stabilità dell'anca",
+    "modification_it": "Tenere la sedia con una mano; sollevare il ginocchio solo quanto l'equilibrio permette",
+    "safety_it": "Avere sempre la sedia a portata di mano",
+    "youtube_query": "golden rooster one leg tai chi balance seniors",
+    "tags": [
+      "equilibrio",
+      "gambe",
+      "forza",
+      "stabilità"
+    ],
+    "image": "assets/visuals/taichi-09.png",
+    "description_it": "In piedi vicino alla sedia. Sollevare lentamente il ginocchio destro fino all'altezza del fianco, alzando simultaneamente il braccio destro verso l'alto. Tenere l'altro braccio abbassato. Mantenere per 5 secondi, poi abbassare lentamente. Ripetere 5 volte per lato."
+  },
+  {
+    "id": "taichi-10",
+    "name_it": "Forma di Chiusura",
+    "name_en": "Closing Form",
+    "category": "taichi",
+    "difficulty": 1,
+    "phase": "cooldown",
+    "duration_sec": 45,
+    "equipment": [],
+    "benefit_it": "Raffreddamento consapevole, integrazione della pratica, calma",
+    "modification_it": "Eseguire seduta se necessario",
+    "safety_it": "",
+    "youtube_query": "tai chi closing form cool down seniors",
+    "tags": [
+      "respirazione",
+      "calma",
+      "integrazione",
+      "conclusione"
+    ],
+    "image": "assets/visuals/taichi-10.png",
+    "description_it": "Portare i piedi uniti, abbassare lentamente le braccia lungo i fianchi, espirando. Restare in silenzio per qualche respiro, consapevoli delle sensazioni nel corpo. Ringraziare il proprio corpo per la pratica svolta. Questa forma conclude ogni sessione di tai-chi."
+  },
+  {
+    "id": "taichi-11",
+    "name_it": "Afferrare la Coda del Passero",
+    "name_en": "Grasp the Sparrow's Tail",
+    "category": "taichi",
+    "difficulty": 2,
+    "phase": "taichi",
+    "duration_sec": 90,
+    "equipment": [],
+    "benefit_it": "Coordinazione totale del corpo, forza delle gambe, fluidità",
+    "modification_it": "Ridurre l'ampiezza del passo; eseguire i movimenti delle braccia da seduti",
+    "safety_it": "",
+    "youtube_query": "grasp sparrow tail tai chi beginners seniors",
+    "tags": [
+      "coordinazione",
+      "gambe",
+      "braccia",
+      "fluidità"
+    ],
+    "image": "assets/visuals/taichi-11.png",
+    "description_it": "Fare un passo avanti con il piede destro. Una mano \"sorregge\" una palla immaginaria in basso, l'altra spinge lentamente in avanti e verso l'alto. Il movimento è fluido, come se si stesse raccogliendo e rilasciando energia. Eseguire 6-8 ripetizioni alternando i lati."
+  },
+  {
+    "id": "taichi-12",
+    "name_it": "Suonare il Liuto",
+    "name_en": "Play Guitar (Strum the Lute)",
+    "category": "taichi",
+    "difficulty": 2,
+    "phase": "taichi",
+    "duration_sec": 60,
+    "equipment": [],
+    "benefit_it": "Mobilità delle braccia e degli avambracci, spostamento del peso",
+    "modification_it": "Eseguire da seduti senza lo spostamento del peso",
+    "safety_it": "",
+    "youtube_query": "play guitar strum lute tai chi seniors",
+    "tags": [
+      "braccia",
+      "spostamento",
+      "equilibrio",
+      "mobilità"
+    ],
+    "image": "assets/visuals/taichi-12.png",
+    "description_it": "In piedi con il peso sul piede posteriore, il tallone del piede anteriore leggermente sollevato. Le braccia formano una cornice curva come se si stesse suonando uno strumento. Tenere la posizione per qualche respiro, poi cambiare lato. Ripetere 5 volte per lato."
+  },
+  {
+    "id": "taichi-13",
+    "name_it": "La Frusta",
+    "name_en": "Single Whip",
+    "category": "taichi",
+    "difficulty": 2,
+    "phase": "taichi",
+    "duration_sec": 60,
+    "equipment": [],
+    "benefit_it": "Apertura delle spalle, rotazione della vita, coordinazione",
+    "modification_it": "Ridurre la larghezza del passo; eseguire senza piegare le ginocchia profondamente",
+    "safety_it": "",
+    "youtube_query": "single whip tai chi beginners seniors Yang",
+    "tags": [
+      "spalle",
+      "vita",
+      "coordinazione",
+      "apertura"
+    ],
+    "image": "assets/visuals/taichi-13.png",
+    "description_it": "Da una posizione a \"Mani Nuvola\", portare un braccio in avanti con la mano aperta, mentre l'altro si porta lateralmente con le dita unite a formare un \"gancio\" (pollice e indice che si toccano, dita verso il basso). Girare il busto verso il braccio aperto. Mantenere per qualche respiro, poi ripetere sull'altro lato."
+  },
+  {
+    "id": "taichi-14",
+    "name_it": "Otto Broccati — Tendere l'Arco",
+    "name_en": "Eight Brocades — Drawing the Bow",
+    "category": "taichi",
+    "difficulty": 2,
+    "phase": "taichi",
+    "duration_sec": 60,
+    "equipment": [],
+    "benefit_it": "Apertura del petto, forza della schiena superiore, capacità polmonare",
+    "modification_it": "Ridurre l'ampiezza del movimento delle braccia se c'è tensione alle spalle",
+    "safety_it": "",
+    "youtube_query": "eight brocades drawing bow qigong seniors",
+    "tags": [
+      "petto",
+      "schiena",
+      "polmoni",
+      "forza"
+    ],
+    "image": "assets/visuals/taichi-14.png",
+    "description_it": "In piedi con i piedi ben separati. Mimare il gesto di tendere un arco: un braccio si estende lateralmente come se stesse mirando, l'altro si ritrae verso il petto come se tirasse la corda. Alternare i lati 8 volte. Inspirare aprendo le braccia, espirare nel ritorno."
+  },
+  {
+    "id": "taichi-15",
+    "name_it": "Otto Broccati — Separare Cielo e Terra",
+    "name_en": "Eight Brocades — Separating Heaven and Earth",
+    "category": "taichi",
+    "difficulty": 1,
+    "phase": "taichi",
+    "duration_sec": 60,
+    "equipment": [],
+    "benefit_it": "Allungamento della colonna vertebrale, stimolazione digestiva",
+    "modification_it": "Ridurre l'ampiezza del movimento; eseguire seduta se necessario",
+    "safety_it": "",
+    "youtube_query": "eight brocades separating heaven earth qigong seniors",
+    "tags": [
+      "colonna",
+      "digestione",
+      "stiramento",
+      "energia"
+    ],
+    "image": "assets/visuals/taichi-15.png",
+    "description_it": "In piedi con i piedi alla larghezza delle spalle. Portare una mano verso l'alto (palmo verso il cielo) e l'altra verso il basso (palmo verso la terra). Tenere per 5 secondi sentendo l'allungamento in tutta la colonna. Alternare i lati 8 volte. Respirare in modo profondo e regolare."
+  },
+  {
+    "id": "taichi-16",
+    "name_it": "Rotolare la Palla di Tai-Chi",
+    "name_en": "Tai Chi Ball Rolling",
+    "category": "taichi",
+    "difficulty": 1,
+    "phase": "taichi",
+    "duration_sec": 60,
+    "equipment": [],
+    "benefit_it": "Mobilità di polsi e spalle, consapevolezza corporea, rilassamento",
+    "modification_it": "Eseguire seduta",
+    "safety_it": "",
+    "youtube_query": "tai chi ball rolling qigong wrists seniors relaxation",
+    "tags": [
+      "polsi",
+      "spalle",
+      "rilassamento",
+      "consapevolezza"
+    ],
+    "image": "assets/visuals/taichi-16.png",
+    "description_it": "Tenere una palla immaginaria tra le mani davanti al corpo. Ruotarla lentamente in cerchi verticali e orizzontali, come se si stesse modellando dell'argilla. I movimenti sono morbidi e senza fretta. Continuare per 1 minuto, variando direzione e ampiezza del cerchio."
+  },
+  {
+    "id": "taichi-17",
+    "name_it": "La Bella Signora Tesse",
+    "name_en": "Fair Lady Works Shuttles",
+    "category": "taichi",
+    "difficulty": 3,
+    "phase": "taichi",
+    "duration_sec": 120,
+    "equipment": [],
+    "benefit_it": "Equilibrio avanzato, coordinazione diagonale, rotazione dell'anca",
+    "modification_it": "Ridurre il passo diagonale a un semplice trasferimento di peso; usare la sedia",
+    "safety_it": "Assicurarsi di avere spazio sufficiente intorno a sé",
+    "youtube_query": "fair lady works shuttles tai chi seniors advanced",
+    "tags": [
+      "equilibrio",
+      "coordinazione",
+      "fianchi",
+      "avanzato"
+    ],
+    "image": "assets/visuals/taichi-17.png",
+    "description_it": "Fare un passo diagonale in avanti-destra. Un braccio si eleva sopra la testa a deflettere (come per proteggersi), l'altro spinge in avanti al livello del petto. Ripetere verso i quattro angoli della stanza in sequenza. Eseguire lentamente con piena consapevolezza di ogni passo."
+  },
+  {
+    "id": "taichi-18",
+    "name_it": "Passo Indietro e Braccia a Mulinello",
+    "name_en": "Step Back and Whirl Arms",
+    "category": "taichi",
+    "difficulty": 2,
+    "phase": "taichi",
+    "duration_sec": 90,
+    "equipment": [],
+    "benefit_it": "Coordinazione, mobilità all'indietro, forza delle spalle",
+    "modification_it": "Fare piccoli passi; usare la sedia per supporto laterale",
+    "safety_it": "Verificare lo spazio libero dietro di sé prima di iniziare",
+    "youtube_query": "step back whirl arms tai chi seniors beginners",
+    "tags": [
+      "coordinazione",
+      "spalle",
+      "mobilità",
+      "gambe"
+    ],
+    "image": "assets/visuals/taichi-18.png",
+    "description_it": "Fare un passo indietro con il piede sinistro mentre il braccio sinistro compie un ampio cerchio indietro e verso l'alto, e il destro spinge in avanti. Alternare i lati per 8 ripetizioni. Il movimento delle braccia ricorda i mulinelli di un mulino a vento, sempre lento e controllato."
+  },
+  {
+    "id": "taichi-19",
+    "name_it": "Gallo d'Oro (Forma Completa)",
+    "name_en": "Golden Rooster Stands — Both Sides",
+    "category": "taichi",
+    "difficulty": 3,
+    "phase": "taichi",
+    "duration_sec": 90,
+    "equipment": [
+      "sedia"
+    ],
+    "benefit_it": "Equilibrio avanzato, forza delle gambe, concentrazione mentale",
+    "modification_it": "Tenere la sedia con una mano; ridurre l'altezza del ginocchio sollevato",
+    "safety_it": "Avere sempre il supporto a portata di mano",
+    "youtube_query": "golden rooster tai chi balance advanced seniors",
+    "tags": [
+      "equilibrio",
+      "forza",
+      "concentrazione",
+      "avanzato"
+    ],
+    "image": "assets/visuals/taichi-19.png",
+    "description_it": "In piedi vicino alla sedia. Sollevare il ginocchio destro all'altezza dei fianchi alzando il braccio destro e abbassando il sinistro. Mantenere per 8-10 secondi. Abbassare lentamente e ripetere con il lato opposto. Eseguire 3-5 ripetizioni per lato. La sfida è mantenere l'equilibrio con il minimo supporto."
+  },
+  {
+    "id": "taichi-20",
+    "name_it": "Meditazione in Piedi (Wu Ji)",
+    "name_en": "Standing Meditation (Wu Ji)",
+    "category": "taichi",
+    "difficulty": 1,
+    "phase": "cooldown",
+    "duration_sec": 180,
+    "equipment": [],
+    "benefit_it": "Centratura, allineamento posturale, riduzione dello stress",
+    "modification_it": "Eseguire seduta se stare in piedi a lungo è faticoso",
+    "safety_it": "",
+    "youtube_query": "wu ji standing meditation tai chi qigong seniors",
+    "tags": [
+      "meditazione",
+      "postura",
+      "calma",
+      "centratura"
+    ],
+    "image": "assets/visuals/taichi-20.png",
+    "description_it": "In piedi con i piedi alla larghezza delle spalle, ginocchia leggermente piegate, braccia rilassate ai lati. Chiudere gli occhi o abbassare lo sguardo. Respirare naturalmente, portando l'attenzione al baricentro (hara), circa tre dita sotto l'ombelico. Rimanere immobili e consapevoli per 3-5 minuti."
+  },
+  {
+    "id": "cardio-01",
+    "name_it": "Marcia Seduta",
+    "name_en": "Seated March",
+    "category": "cardio",
+    "difficulty": 1,
+    "phase": "warmup",
+    "duration_sec": 120,
+    "equipment": [
+      "sedia"
+    ],
+    "benefit_it": "Attivazione cardiovascolare dolce, coordinazione, riscaldamento generale",
+    "modification_it": "Ridurre il ritmo o l'altezza del ginocchio se necessario",
+    "safety_it": "",
+    "youtube_query": "seated march chair cardio seniors warm up",
+    "tags": [
+      "cardio",
+      "riscaldamento",
+      "coordinazione",
+      "seduta"
+    ],
+    "image": "assets/visuals/cardio-01.png",
+    "description_it": "Sedere su una sedia con la schiena dritta. Alzare le ginocchia in modo alternato come se si stesse marciando, pompando le braccia in sincronia. Mantenere un ritmo moderato per 2 minuti. È l'esercizio ideale per iniziare qualsiasi sessione."
+  },
+  {
+    "id": "cardio-02",
+    "name_it": "Marcia sul Posto",
+    "name_en": "Standing March in Place",
+    "category": "cardio",
+    "difficulty": 1,
+    "phase": "warmup",
+    "duration_sec": 120,
+    "equipment": [],
+    "benefit_it": "Cardio dolce, equilibrio, forza delle gambe",
+    "modification_it": "Tenere la sedia per il supporto; ridurre l'altezza del ginocchio",
+    "safety_it": "",
+    "youtube_query": "marching in place seniors cardio warm up",
+    "tags": [
+      "cardio",
+      "equilibrio",
+      "gambe",
+      "riscaldamento"
+    ],
+    "image": "assets/visuals/cardio-02.png",
+    "description_it": "In piedi, marciare sul posto sollevando le ginocchia verso i fianchi. Oscillare le braccia in modo naturale. Mantenere il ritmo per 2-3 minuti. Aumentare gradualmente la velocità se ci si sente a proprio agio."
+  },
+  {
+    "id": "cardio-03",
+    "name_it": "Camminate Tallone-Punta",
+    "name_en": "Heel-Toe Walks",
+    "category": "cardio",
+    "difficulty": 1,
+    "phase": "cardio",
+    "duration_sec": 120,
+    "equipment": [],
+    "benefit_it": "Mobilità della caviglia, equilibrio, cardio leggero",
+    "modification_it": "Eseguire vicino a una parete per il supporto",
+    "safety_it": "",
+    "youtube_query": "heel toe walk seniors balance cardio",
+    "tags": [
+      "caviglie",
+      "equilibrio",
+      "mobilità",
+      "cardio"
+    ],
+    "image": "assets/visuals/cardio-03.png",
+    "description_it": "Camminare attraverso la stanza poggiando prima il tallone poi la punta del piede, in modo deliberato e consapevole. Mantenere la schiena dritta e lo sguardo in avanti. Completare 10 lunghezze della stanza. Questo esercizio migliora l'equilibrio e la propriocezione."
+  },
+  {
+    "id": "cardio-04",
+    "name_it": "Passi Laterali",
+    "name_en": "Side Steps",
+    "category": "cardio",
+    "difficulty": 1,
+    "phase": "cardio",
+    "duration_sec": 120,
+    "equipment": [],
+    "benefit_it": "Stabilità laterale, forza dell'anca, cardio",
+    "modification_it": "Eseguire vicino a una parete; ridurre l'ampiezza del passo",
+    "safety_it": "",
+    "youtube_query": "side steps lateral walk seniors cardio",
+    "tags": [
+      "fianchi",
+      "stabilità",
+      "cardio",
+      "gambe"
+    ],
+    "image": "assets/visuals/cardio-04.png",
+    "description_it": "In piedi, fare 4 passi laterali verso destra, poi 4 verso sinistra. Tenere il core leggermente attivato e le ginocchia morbide. Oscillare le braccia dolcemente. Continuare per 2-3 minuti, aumentando gradualmente la velocità. Un ottimo esercizio per la stabilità laterale."
+  },
+  {
+    "id": "cardio-05",
+    "name_it": "Passo e Tocco",
+    "name_en": "Step Touch",
+    "category": "cardio",
+    "difficulty": 1,
+    "phase": "cardio",
+    "duration_sec": 120,
+    "equipment": [],
+    "benefit_it": "Cardio a basso impatto, ritmo, coordinazione",
+    "modification_it": "Rallentare il ritmo; ridurre l'oscillazione delle braccia",
+    "safety_it": "",
+    "youtube_query": "step touch low impact cardio seniors",
+    "tags": [
+      "cardio",
+      "ritmo",
+      "coordinazione",
+      "basso impatto"
+    ],
+    "image": "assets/visuals/cardio-05.png",
+    "description_it": "Fare un passo con il piede destro verso destra, poi portare il piede sinistro accanto. Alternare i lati con un gesto fluido, oscillando le braccia dolcemente. Mantenere un ritmo costante per 2-3 minuti. Aggiungere un po' di musica allegra per rendere l'esercizio più piacevole!"
+  },
+  {
+    "id": "cardio-06",
+    "name_it": "Alzarsi e Sedersi dalla Sedia",
+    "name_en": "Chair Stand (Sit-to-Stand)",
+    "category": "cardio",
+    "difficulty": 2,
+    "phase": "cardio",
+    "duration_sec": 90,
+    "equipment": [
+      "sedia"
+    ],
+    "benefit_it": "Forza delle gambe, fitness funzionale, prevenzione delle cadute",
+    "modification_it": "Usare le mani per aiutarsi ad alzarsi se necessario; scegliere una sedia robusta con braccioli",
+    "safety_it": "Assicurarsi che la sedia non scivoli; eseguire lentamente",
+    "youtube_query": "sit to stand chair exercise seniors strength",
+    "tags": [
+      "gambe",
+      "forza",
+      "funzionale",
+      "prevenzione cadute"
+    ],
+    "image": "assets/visuals/cardio-06.png",
+    "description_it": "Sedere sul bordo della sedia. Alzarsi lentamente senza usare le mani, spingendo con le gambe. Stare in piedi per un momento, poi sedersi lentamente. Ripetere 10-15 volte. Questo è uno degli esercizi funzionali più importanti per mantenere l'autonomia quotidiana."
+  },
+  {
+    "id": "cardio-07",
+    "name_it": "Sollevamento dei Polpacci",
+    "name_en": "Standing Calf Raises",
+    "category": "cardio",
+    "difficulty": 1,
+    "phase": "cardio",
+    "duration_sec": 60,
+    "equipment": [
+      "sedia"
+    ],
+    "benefit_it": "Forza dei polpacci, circolazione, equilibrio",
+    "modification_it": "Tenere la sedia per il supporto; ridurre l'altezza del sollevamento",
+    "safety_it": "",
+    "youtube_query": "calf raises seniors standing balance",
+    "tags": [
+      "polpacci",
+      "circolazione",
+      "equilibrio",
+      "forza"
+    ],
+    "image": "assets/visuals/cardio-07.png",
+    "description_it": "In piedi dietro la sedia, tenendola leggermente con le mani. Sollevarsi sulle punte dei piedi, mantenere per 2 secondi, poi scendere lentamente. Ripetere 15-20 volte. I polpacci forti sono fondamentali per la circolazione e la prevenzione delle cadute."
+  },
+  {
+    "id": "cardio-08",
+    "name_it": "Flessioni al Muro",
+    "name_en": "Wall Push-Ups",
+    "category": "cardio",
+    "difficulty": 2,
+    "phase": "cardio",
+    "duration_sec": 60,
+    "equipment": [],
+    "benefit_it": "Forza della parte superiore del corpo, postura",
+    "modification_it": "Stare più vicino al muro per ridurre la difficoltà",
+    "safety_it": "",
+    "youtube_query": "wall push ups seniors upper body strength",
+    "tags": [
+      "braccia",
+      "petto",
+      "postura",
+      "forza"
+    ],
+    "image": "assets/visuals/cardio-08.png",
+    "description_it": "Posizionarsi di fronte a un muro, a circa un braccio di distanza. Appoggiare i palmi al muro all'altezza delle spalle. Piegare i gomiti avvicinando il petto al muro, poi spingere per tornare alla posizione iniziale. Eseguire 10-15 ripetizioni in modo controllato."
+  },
+  {
+    "id": "cardio-09",
+    "name_it": "Passeggiata in Casa",
+    "name_en": "Indoor Walk Circuit",
+    "category": "cardio",
+    "difficulty": 1,
+    "phase": "cardio",
+    "duration_sec": 600,
+    "equipment": [],
+    "benefit_it": "Cardio sostenuto, costruzione dell'abitudine, umore",
+    "modification_it": "Iniziare con 5 minuti e aumentare gradualmente",
+    "safety_it": "Rimuovere tappeti e ostacoli dal percorso; indossare scarpe adeguate",
+    "youtube_query": "indoor walking workout seniors 10 minutes",
+    "tags": [
+      "cardio",
+      "abitudine",
+      "umore",
+      "camminata"
+    ],
+    "image": "assets/visuals/cardio-09.png",
+    "description_it": "Camminare a passo svelto attraverso le stanze di casa seguendo un percorso circolare (es. cucina → corridoio → salotto → camera → ritorno). Mantenere il ritmo per 10-15 minuti. Aggiungere musica o un podcast per rendere il tempo più piacevole. Ottimo per i giorni di pioggia."
+  },
+  {
+    "id": "cardio-10",
+    "name_it": "Salire le Scale",
+    "name_en": "Stair Climbing",
+    "category": "cardio",
+    "difficulty": 2,
+    "phase": "cardio",
+    "duration_sec": 300,
+    "equipment": [],
+    "benefit_it": "Cardio intenso, forza delle gambe e dei glutei",
+    "modification_it": "Usare sempre il corrimano; fare una sola rampa per iniziare",
+    "safety_it": "Usare il corrimano; non eseguire se si hanno problemi alle ginocchia non gestiti",
+    "youtube_query": "stair climbing exercise seniors strength",
+    "tags": [
+      "cardio",
+      "gambe",
+      "glutei",
+      "forza"
+    ],
+    "image": "assets/visuals/cardio-10.png",
+    "description_it": "Salire e scendere un piano di scale lentamente e deliberatamente, tenendo sempre il corrimano. Poggare prima il tallone e poi la punta su ogni gradino. Ripetere per 5-10 minuti. Le scale sono una delle palestre più efficaci disponibili in casa."
+  },
+  {
+    "id": "cardio-11",
+    "name_it": "Sollevamenti Laterali della Gamba",
+    "name_en": "Lateral Leg Raises (Standing)",
+    "category": "cardio",
+    "difficulty": 2,
+    "phase": "cardio",
+    "duration_sec": 60,
+    "equipment": [
+      "sedia"
+    ],
+    "benefit_it": "Forza dell'anca esterna e dei glutei, equilibrio",
+    "modification_it": "Ridurre l'altezza del sollevamento; tenere la sedia con entrambe le mani",
+    "safety_it": "Mantenere il busto eretto; non inclinarsi lateralmente",
+    "youtube_query": "standing lateral leg raises seniors hip strength",
+    "tags": [
+      "fianchi",
+      "glutei",
+      "equilibrio",
+      "forza"
+    ],
+    "image": "assets/visuals/cardio-11.png",
+    "description_it": "In piedi dietro la sedia, tenerla con una mano. Sollevare lentamente una gamba di lato fino all'altezza del fianco, poi abbassarla. Tenere il busto eretto durante il movimento. Eseguire 12-15 ripetizioni per lato. Questo esercizio rinforza i muscoli dell'anca importanti per l'equilibrio."
+  },
+  {
+    "id": "cardio-12",
+    "name_it": "Sollevamenti della Gamba Posteriore",
+    "name_en": "Standing Back Leg Lifts",
+    "category": "cardio",
+    "difficulty": 2,
+    "phase": "cardio",
+    "duration_sec": 60,
+    "equipment": [
+      "sedia"
+    ],
+    "benefit_it": "Forza dei glutei e della schiena bassa, postura",
+    "modification_it": "Ridurre l'altezza del movimento; non inarcare la schiena",
+    "safety_it": "Mantenere la schiena dritta e il movimento controllato",
+    "youtube_query": "standing back leg lifts seniors glutes posture",
+    "tags": [
+      "glutei",
+      "schiena",
+      "postura",
+      "forza"
+    ],
+    "image": "assets/visuals/cardio-12.png",
+    "description_it": "In piedi dietro la sedia, tenendola con entrambe le mani. Sollevare lentamente una gamba verso l'indietro, stringendo il gluteo in cima al movimento. Abbassare lentamente. Eseguire 12-15 ripetizioni per lato. Mantenere sempre la schiena dritta e non inarcarla."
+  },
+  {
+    "id": "cardio-13",
+    "name_it": "Rotazioni delle Braccia",
+    "name_en": "Arm Circles",
+    "category": "cardio",
+    "difficulty": 1,
+    "phase": "warmup",
+    "duration_sec": 45,
+    "equipment": [],
+    "benefit_it": "Mobilità delle spalle, riscaldamento della parte superiore del corpo",
+    "modification_it": "Ridurre la dimensione dei cerchi se si sente tensione alla spalla",
+    "safety_it": "",
+    "youtube_query": "arm circles shoulder mobility warm up seniors",
+    "tags": [
+      "spalle",
+      "mobilità",
+      "riscaldamento",
+      "braccia"
+    ],
+    "image": "assets/visuals/cardio-13.png",
+    "description_it": "In piedi con le braccia estese ai lati. Disegnare lentamente cerchi ampi verso l'avanti 10 volte, poi verso l'indietro 10 volte. Inspirare quando le braccia salgono, espirare quando scendono. Ottimo per riscaldare le articolazioni delle spalle prima di qualsiasi attività."
+  },
+  {
+    "id": "cardio-14",
+    "name_it": "Jumping Jack da Seduti",
+    "name_en": "Seated Jumping Jacks",
+    "category": "cardio",
+    "difficulty": 1,
+    "phase": "cardio",
+    "duration_sec": 90,
+    "equipment": [
+      "sedia"
+    ],
+    "benefit_it": "Cardio senza impatto sulle articolazioni, mobilità dell'anca",
+    "modification_it": "Eseguire il solo movimento delle braccia senza muovere le gambe",
+    "safety_it": "",
+    "youtube_query": "seated jumping jacks chair cardio seniors low impact",
+    "tags": [
+      "cardio",
+      "fianchi",
+      "basso impatto",
+      "seduta"
+    ],
+    "image": "assets/visuals/cardio-14.png",
+    "description_it": "Sedere su una sedia con i piedi uniti. Aprire contemporaneamente le gambe verso i lati e sollevare le braccia sopra la testa. Poi riportare gambe unite e braccia giù. Mantenere un ritmo regolare per 1-2 minuti. Ideale per chi non può fare esercizi in piedi."
+  },
+  {
+    "id": "cardio-15",
+    "name_it": "Tocchi con i Piedi su un Gradino",
+    "name_en": "Toe Taps to a Step",
+    "category": "cardio",
+    "difficulty": 2,
+    "phase": "cardio",
+    "duration_sec": 90,
+    "equipment": [],
+    "benefit_it": "Coordinazione, forza delle gambe, cardio moderato",
+    "modification_it": "Usare sempre il corrimano; alternativa senza gradino: toccare una linea sul pavimento",
+    "safety_it": "Usare il corrimano se disponibile; scegliere un gradino stabile",
+    "youtube_query": "step tap toe taps cardio seniors coordination",
+    "tags": [
+      "coordinazione",
+      "gambe",
+      "cardio",
+      "equilibrio"
+    ],
+    "image": "assets/visuals/cardio-15.png",
+    "description_it": "Posizionarsi di fronte al primo gradino delle scale o a un rialzo stabile. Alternare i piedi toccando il gradino con la punta, come se si stesse camminando sul posto verso l'alto. Usare il corrimano per il supporto. Continuare per 1-2 minuti."
+  },
+  {
+    "id": "cardio-16",
+    "name_it": "Pugilato da Seduti",
+    "name_en": "Shadow Boxing (Seated)",
+    "category": "cardio",
+    "difficulty": 1,
+    "phase": "cardio",
+    "duration_sec": 90,
+    "equipment": [
+      "sedia"
+    ],
+    "benefit_it": "Cardio della parte superiore del corpo, coordinazione, umore positivo",
+    "modification_it": "Ridurre la velocità e l'ampiezza dei movimenti",
+    "safety_it": "Movimenti lenti e controllati; non lanciare pugni con forza",
+    "youtube_query": "seated shadow boxing seniors upper body cardio",
+    "tags": [
+      "cardio",
+      "braccia",
+      "coordinazione",
+      "divertimento"
+    ],
+    "image": "assets/visuals/cardio-16.png",
+    "description_it": "Sedere su una sedia. Alzare i pugni alla guardia e lanciare pugni lenti e deliberati in avanti, a destra e a sinistra. Alternare i pugni in modo ritmico per 1-2 minuti. Questo esercizio di solito strappa un sorriso ed è ottimo per l'umore!"
+  },
+  {
+    "id": "cardio-17",
+    "name_it": "Cerchi con i Fianchi",
+    "name_en": "Hip Circles (Standing)",
+    "category": "cardio",
+    "difficulty": 1,
+    "phase": "warmup",
+    "duration_sec": 45,
+    "equipment": [
+      "sedia"
+    ],
+    "benefit_it": "Mobilità dell'articolazione dell'anca, scioglimento della schiena bassa",
+    "modification_it": "Tenere la sedia con una mano per il supporto",
+    "safety_it": "",
+    "youtube_query": "hip circles standing seniors warm up mobility",
+    "tags": [
+      "fianchi",
+      "mobilità",
+      "schiena",
+      "riscaldamento"
+    ],
+    "image": "assets/visuals/cardio-17.png",
+    "description_it": "In piedi con i piedi alla larghezza delle spalle, mani sui fianchi. Ruotare lentamente i fianchi disegnando cerchi ampi, 8 volte in senso orario e 8 in senso antiorario. Mantenere le ginocchia leggermente piegate e i movimenti fluidi. Ottimo per iniziare e finire ogni sessione."
+  },
+  {
+    "id": "cardio-18",
+    "name_it": "Alzate del Ginocchio in Piedi",
+    "name_en": "Standing Knee Raises",
+    "category": "cardio",
+    "difficulty": 2,
+    "phase": "cardio",
+    "duration_sec": 90,
+    "equipment": [
+      "sedia"
+    ],
+    "benefit_it": "Forza del core e dei flessori dell'anca, equilibrio",
+    "modification_it": "Tenere la sedia con entrambe le mani; alzare il ginocchio solo fino al livello del comfort",
+    "safety_it": "",
+    "youtube_query": "standing knee raises seniors balance core",
+    "tags": [
+      "core",
+      "fianchi",
+      "equilibrio",
+      "forza"
+    ],
+    "image": "assets/visuals/cardio-18.png",
+    "description_it": "In piedi vicino alla sedia. Alzare il ginocchio destro all'altezza del fianco e mantenerlo per 1-2 secondi. Abbassare lentamente. Alternare le gambe per 15-20 ripetizioni per lato. Per aumentare la difficoltà, aggiungere un movimento delle braccia verso l'alto mentre si alza il ginocchio."
+  },
+  {
+    "id": "cardio-19",
+    "name_it": "Scivolata al Muro",
+    "name_en": "Wall Slide",
+    "category": "cardio",
+    "difficulty": 2,
+    "phase": "cardio",
+    "duration_sec": 60,
+    "equipment": [],
+    "benefit_it": "Forza dei quadricipiti, salute del ginocchio, postura",
+    "modification_it": "Scendere solo quanto è comodo; non andare mai oltre i 90°",
+    "safety_it": "Non eseguire se si ha dolore acuto al ginocchio",
+    "youtube_query": "wall slide squat seniors knee health strength",
+    "tags": [
+      "quadricipiti",
+      "ginocchia",
+      "postura",
+      "forza"
+    ],
+    "image": "assets/visuals/cardio-19.png",
+    "description_it": "Appoggiarsi con la schiena piatta contro un muro. Scivolare lentamente verso il basso piegando le ginocchia fino a circa 45° (non oltre). Mantenere la posizione per 10-20 secondi, poi risalire lentamente. Ripetere 5-8 volte. Le ginocchia non devono superare la punta dei piedi."
+  },
+  {
+    "id": "cardio-20",
+    "name_it": "Passeggiata Danzante",
+    "name_en": "Towel/Mat Dance Walk",
+    "category": "cardio",
+    "difficulty": 1,
+    "phase": "cardio",
+    "duration_sec": 600,
+    "equipment": [],
+    "benefit_it": "Cardio sostenuto a basso impatto, umore, motivazione",
+    "modification_it": "Qualsiasi ritmo e musica va bene; basta muoversi!",
+    "safety_it": "Rimuovere ostacoli dal percorso; indossare scarpe antiscivolo",
+    "youtube_query": "dance walk seniors low impact happy music",
+    "tags": [
+      "cardio",
+      "umore",
+      "divertimento",
+      "motivazione"
+    ],
+    "image": "assets/visuals/cardio-20.png",
+    "description_it": "Mettere della musica allegra e camminare liberamente per casa con un tocco di danza: un piccolo dondolio, uno step laterale, le braccia che si muovono. Non importa la perfezione, importa il movimento e il sorriso! Continuare per 10 minuti. È l'esercizio più divertente di tutta la sessione."
+  }
+]

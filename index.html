@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yoga@Casa</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="favicon.svg">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="header">
+    <h1 class="header__title">🧘 Yoga@Casa</h1>
+    <p class="header__subtitle">Il tuo programma di benessere a casa</p>
+  </header>
+
+  <nav class="nav" role="navigation" aria-label="Navigazione principale">
+    <button class="nav__btn nav__btn--active" data-view="sessione" aria-pressed="true">Sessione</button>
+    <button class="nav__btn" data-view="libreria" aria-pressed="false">Libreria</button>
+    <button class="nav__btn" data-view="progressi" aria-pressed="false">Progressi</button>
+    <button class="nav__btn" data-view="profilo" aria-pressed="false">Profilo</button>
+  </nav>
+
+  <main class="main" id="main-content">
+
+    <!-- ===== VIEW: SESSIONE ===== -->
+    <section class="view view--active" id="view-sessione" aria-label="Genera sessione">
+      <div class="card">
+        <h2 class="card__title">Genera la tua sessione</h2>
+        <p class="card__text">Una sessione completa di 30 minuti su misura per te.</p>
+
+        <div class="form-group">
+          <label class="form-label" for="select-livello">Livello di difficoltà</label>
+          <select class="form-select" id="select-livello" aria-describedby="livello-help">
+            <option value="1">⭐ Base — Principiante</option>
+            <option value="2">⭐⭐ Medio — Con un po' di pratica</option>
+            <option value="3">⭐⭐⭐ Avanzato — Allenata</option>
+          </select>
+          <small id="livello-help" class="form-hint">Inizia con "Base" se è la prima volta</small>
+        </div>
+
+        <button class="btn btn--primary btn--full" id="btn-genera">
+          Genera Sessione
+        </button>
+      </div>
+
+      <div class="session" id="session-container" hidden>
+        <div class="session__header">
+          <h2 class="session__title">La tua sessione di oggi</h2>
+          <span class="session__date" id="session-date"></span>
+        </div>
+
+        <div class="session__phases" id="session-phases">
+          <!-- Populated by app.js -->
+        </div>
+
+        <div class="session__actions">
+          <button class="btn btn--success btn--full" id="btn-salva-sessione">
+            ✓ Segna come completata
+          </button>
+          <button class="btn btn--outline btn--full" id="btn-nuova-sessione">
+            ↻ Genera un'altra sessione
+          </button>
+        </div>
+      </div>
+
+      <!-- Modale salva sessione -->
+      <div class="modal" id="modal-salva" hidden role="dialog" aria-modal="true" aria-labelledby="modal-title">
+        <div class="modal__content">
+          <h3 class="modal__title" id="modal-title">Come ti sei sentita?</h3>
+          <div class="mood-picker" id="mood-picker" role="group" aria-label="Scegli umore">
+            <button class="mood-btn" data-mood="1" aria-label="Faticoso">😓 Faticoso</button>
+            <button class="mood-btn" data-mood="2" aria-label="Normale">😐 Normale</button>
+            <button class="mood-btn" data-mood="3" aria-label="Bene">🙂 Bene</button>
+            <button class="mood-btn" data-mood="4" aria-label="Benissimo">😊 Benissimo</button>
+            <button class="mood-btn" data-mood="5" aria-label="Perfetto">🌟 Perfetto</button>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="note-sessione">Note (opzionale)</label>
+            <textarea class="form-textarea" id="note-sessione" rows="3"
+              placeholder="Come ti sei sentita? Qualcosa di particolare?"></textarea>
+          </div>
+          <div class="modal__actions">
+            <button class="btn btn--primary" id="btn-conferma-salva">Salva</button>
+            <button class="btn btn--ghost" id="btn-chiudi-modal">Annulla</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== VIEW: LIBRERIA ===== -->
+    <section class="view" id="view-libreria" aria-label="Libreria esercizi" hidden>
+      <div class="card">
+        <h2 class="card__title">Libreria Esercizi</h2>
+        <div class="filters" role="group" aria-label="Filtri">
+          <button class="filter-btn filter-btn--active" data-filter-cat="tutti">Tutti</button>
+          <button class="filter-btn" data-filter-cat="yoga">Yoga</button>
+          <button class="filter-btn" data-filter-cat="taichi">Tai-Chi</button>
+          <button class="filter-btn" data-filter-cat="cardio">Cardio</button>
+          <select class="filter-select" id="filter-livello" aria-label="Filtra per livello">
+            <option value="0">Tutti i livelli</option>
+            <option value="1">⭐ Base</option>
+            <option value="2">⭐⭐ Medio</option>
+            <option value="3">⭐⭐⭐ Avanzato</option>
+          </select>
+        </div>
+      </div>
+      <div class="exercise-grid" id="exercise-grid">
+        <!-- Populated by app.js -->
+      </div>
+    </section>
+
+    <!-- ===== VIEW: PROGRESSI ===== -->
+    <section class="view" id="view-progressi" aria-label="I miei progressi" hidden>
+      <div class="card">
+        <h2 class="card__title">I miei progressi</h2>
+        <div class="stats-row" id="stats-row">
+          <!-- Populated by app.js -->
+        </div>
+      </div>
+
+      <div class="card">
+        <h3 class="card__title">Peso corporeo</h3>
+        <div class="form-group form-group--inline">
+          <input class="form-input" type="number" id="input-peso" step="0.1" min="30" max="200"
+            placeholder="Es. 72.5" aria-label="Peso in kg">
+          <span class="form-unit">kg</span>
+          <button class="btn btn--primary" id="btn-salva-peso">Aggiungi</button>
+        </div>
+        <div class="peso-log" id="peso-log">
+          <!-- Populated by app.js -->
+        </div>
+      </div>
+
+      <div class="card">
+        <h3 class="card__title">Sessioni recenti</h3>
+        <div class="sessions-log" id="sessions-log">
+          <!-- Populated by app.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== VIEW: PROFILO ===== -->
+    <section class="view" id="view-profilo" aria-label="Profilo" hidden>
+      <div class="header__profile" id="header-profile" hidden aria-live="polite">
+        <div class="header__profile-summary">
+          <div class="header__profile-label">Profilo salvato</div>
+          <div class="header__profile-name" id="header-profile-name"></div>
+          <div class="header__profile-meta" id="header-profile-meta"></div>
+        </div>
+        <div class="header__profile-actions">
+          <button class="btn btn--outline header__profile-btn" id="btn-edit-profile-header">Modifica profilo</button>
+          <button class="btn btn--ghost header__profile-btn" id="btn-delete-profile-header">Elimina profilo</button>
+          <button class="btn btn--ghost header__profile-btn" id="btn-reset-progress-header">Reset progressi</button>
+        </div>
+      </div>
+
+      <div class="card" id="profile-form-card">
+        <h2 class="card__title">Il mio profilo</h2>
+        <div class="form-group">
+          <label class="form-label" for="input-nome">Nome</label>
+          <input class="form-input" type="text" id="input-nome" placeholder="Es. Maria">
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="input-eta">Età</label>
+          <input class="form-input" type="number" id="input-eta" min="40" max="100" placeholder="Es. 66">
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="select-livello-profilo">Livello preferito</label>
+          <select class="form-select" id="select-livello-profilo">
+            <option value="1">⭐ Base</option>
+            <option value="2">⭐⭐ Medio</option>
+            <option value="3">⭐⭐⭐ Avanzato</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="select-obiettivo">Obiettivo principale</label>
+          <select class="form-select" id="select-obiettivo">
+            <option value="perdita_peso">Perdita di peso</option>
+            <option value="flessibilita">Migliorare la flessibilità</option>
+            <option value="equilibrio">Equilibrio e stabilità</option>
+            <option value="benessere">Benessere generale</option>
+          </select>
+        </div>
+        <button class="btn btn--primary btn--full" id="btn-salva-profilo">Salva profilo</button>
+        <p class="profile-saved" id="profile-saved" hidden>✓ Profilo salvato!</p>
+      </div>
+
+      <div class="card card--warning">
+        <h3 class="card__title">Avvertenza medica</h3>
+        <p class="card__text">Consulta sempre il tuo medico prima di iniziare qualsiasi programma di
+          esercizio fisico, specialmente se hai condizioni mediche preesistenti come problemi articolari,
+          pressione alta o problemi cardiaci.</p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== MODALE ESERCIZIO ===== -->
+  <div class="modal" id="modal-esercizio" hidden role="dialog" aria-modal="true" aria-labelledby="ex-modal-title">
+    <div class="modal__content modal__content--large">
+      <button class="modal__close" id="btn-chiudi-esercizio" aria-label="Chiudi">✕</button>
+      <div class="exercise-detail" id="exercise-detail">
+        <!-- Populated by app.js -->
+      </div>
+    </div>
+  </div>
+
+  <div class="modal-overlay" id="modal-overlay" hidden></div>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Misc
+*.log
+*.tmp
+misc/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local env
+.env
+.env.local
+
+# Build artifacts (data/exercises.json is intentionally committed)
