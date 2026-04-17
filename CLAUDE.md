@@ -145,16 +145,21 @@ git push origin main          # GitHub Actions does the rest
 
 ## Publish to GitHub Pages
 
-To publish from your own GitHub account:
+Use a **project site** (recommended — keeps `YOUR_USERNAME.github.io` free for a portfolio):
 
-1. Create a repository named `YOUR_USERNAME.github.io`.
+1. Create a repository named e.g. `yoga-home` (any name works).
 2. Push this project to the repo's `main` branch.
 3. Open the repository on GitHub and go to **Settings → Pages**.
-4. Set **Source** to `Deploy from a branch`.
-5. Set **Branch** to `main` and **Folder** to `/ (root)`.
-6. Save and wait for deployment.
+4. Set **Source** to `GitHub Actions` (the `build.yml` workflow handles deploy).
+5. Save and wait for deployment.
 
-If you publish as a project repo instead, the site will be served from `https://YOUR_USERNAME.github.io/REPO_NAME/`.
+The site will be served from `https://YOUR_USERNAME.github.io/REPO_NAME/`.
+
+> **Alternative — user site (one per account):** name the repo `YOUR_USERNAME.github.io` instead. The site will be at `https://YOUR_USERNAME.github.io/` with no subfolder.
+
+## CI / Node version
+
+The workflow (`.github/workflows/build.yml`) runs on **Node 24**. If you update the workflow, keep `node-version: '24'` or higher.
 
 ## Profile controls
 

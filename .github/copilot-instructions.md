@@ -14,16 +14,21 @@ Static Italian-language web app for senior-friendly yoga, tai-chi, and cardio ho
 
 ## Publish to GitHub Pages
 
-To publish the app from your own GitHub account:
+Use a **project site** (recommended — keeps `YOUR_USERNAME.github.io` free for a portfolio):
 
-1. Create a repository named `YOUR_USERNAME.github.io`.
-2. Push this project to that repository's `main` branch.
+1. Create a repository named e.g. `yoga-home` (any name works).
+2. Push this project to the repo's `main` branch.
 3. In GitHub, open **Settings → Pages**.
-4. Set **Source** to `Deploy from a branch`.
-5. Set **Branch** to `main` and **Folder** to `/ (root)`.
-6. Save and wait for the site to deploy.
+4. Set **Source** to `GitHub Actions` (the `build.yml` workflow handles deploy).
+5. Save and wait for the site to deploy.
 
-If you publish this app as a project repository instead, the public URL becomes `https://YOUR_USERNAME.github.io/REPO_NAME/`.
+The public URL will be `https://YOUR_USERNAME.github.io/REPO_NAME/`.
+
+> **Alternative — user site (one per account):** name the repo `YOUR_USERNAME.github.io`. The site will be at `https://YOUR_USERNAME.github.io/` with no subfolder.
+
+## CI / Node version
+
+The workflow (`.github/workflows/build.yml`) uses **Node 24**. Keep `node-version: '24'` or higher when editing the workflow.
 
 ## Language Rules
 
